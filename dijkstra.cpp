@@ -1,3 +1,14 @@
+// Step 1 : Create a set shortPath to store vertices that come in the way of the shortest path tree.
+// Step 2 : Initialize all distance values as INFINITE and assign distance values as 0 for source vertex so that it is picked first.
+// Step 3 : Loop until all vertices of the graph are in the shortPath.
+//    Step 3.1 : Take a new vertex that is not visited and is nearest.
+//    Step 3.2 : Add this vertex to shortPath.
+//    Step 3.3 : For all adjacent vertices of this vertex update distances. Now check every adjacent vertex of V, if sum of distance of u and weight of edge is elss the update it.
+
+
+
+
+
 #include<stdio.h>
 #define INFINITY 9999
 #define MAX 10
